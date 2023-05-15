@@ -1,0 +1,54 @@
+.form_holder {
+    padding-top: 50px;
+    margin: 0 auto;
+    display: block;
+    width: 38%;
+}
+
+.form_row p,
+h3 {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+}
+
+.form_row input {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+}
+
+.submit_btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 14px;
+}
+
+.image_holder {
+    height: 120px;
+    float: left;
+    background: white;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 12px;
+}
+
+.image_holder img {
+    height: 100%;
+    width: 100%;
+}
+
+.error {
+    width: 100%;
+    float: left;
+    color: red;
+    font-size: 14px;
+}

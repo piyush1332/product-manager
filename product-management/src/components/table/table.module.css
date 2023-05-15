@@ -1,0 +1,53 @@
+.table {
+    width: 100%;
+}
+
+.table_header th {
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.table_row td {
+    padding-right: 20px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.table_row:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.table_row td p {
+    min-width: 200px;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table_action_button {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.image_holder {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.image_holder img {
+    height: 100%;
+    width: 100%;
+}
+
+.no_product_found {
+    text-align: center;
+}
